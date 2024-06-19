@@ -82,7 +82,7 @@ function submitAnswer() {
         submitAnswerBtn.style.display = "none";
         const quizAnswerInner = document.querySelector(".quiz__answers-inner");
         const nextAnswerBtn = document.createElement("button");
-        nextAnswerBtn.textContent = "Next question";
+        nextAnswerBtn.textContent = "Спробуй наступне";
         nextAnswerBtn.id = "nextQuestion";
         nextAnswerBtn.classList.add("btn__base-action");
         quizAnswerInner.appendChild(nextAnswerBtn);
@@ -99,7 +99,7 @@ function submitAnswer() {
 
     if (countQuestions == 9) {
       const nextAnswerBtnEvent = document.getElementById("nextQuestion");
-      nextAnswerBtnEvent.textContent = "Show results";
+      nextAnswerBtnEvent.textContent = "Йой, що там?";
       nextAnswerBtnEvent.addEventListener("click", () => {
         window.location.href = `./result.html?category=${category}&result=${countCorrectAnswers}&categoryImg=${categoryImg}&theme=${themeInStorage}`;
       });

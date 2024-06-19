@@ -43,7 +43,7 @@ export function insertQuizPageContent(
   quizInner.innerHTML = `
   <div class="quiz__question">
     <div>
-      <p class="questions__count">Question ${count + 1} of 10</p> 
+      <p class="questions__count">Питання ${count + 1} з 10</p> 
       <p class="question">${questionsArr[randomQuestionNumber].question}</p>
     </div>
     <div class="quiz__progress">
@@ -52,7 +52,7 @@ export function insertQuizPageContent(
   </div>
   <div class="quiz__answers-inner">
       ${quizOptions(questionsArr[randomQuestionNumber].options)}
-      <button class="submit btn__base-action">Submit answer</button>
+      <button class="submit btn__base-action">Тицяй, якщо впевнений</button>
   <div>
   `;
   quizContainer.appendChild(quizInner);
@@ -75,10 +75,10 @@ export function insertResultPageContent(
       </div>
       <div class="score">
         <p class="score__points">${correctAnswers}</p>
-        <p class="score__all">out of 10</p>
+        <p class="score__all">з 10</p>
       </div>
   </div>
-  <button class="play__again btn__base-action">Play Again</button>
+  <button class="play__again btn__base-action">Спробуй ще!</button>
   `;
   resultContainer.appendChild(quizResult);
 }
@@ -102,7 +102,7 @@ export function ifSelectedAnswer() {
   alertDiv.className = "alert__div";
   alertDiv.innerHTML = `
   <img src="./assets/images/icon-error.svg" alt="error">
-  <p class="notselected__text">Please select an answer</p>
+  <p class="notselected__text">Ну хоч вгадати спробуй!</p>
   `;
   answersInner.appendChild(alertDiv);
 }

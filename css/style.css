@@ -405,7 +405,7 @@ body {
 .result__title {
   & p {
     font-weight: 300;
-    font-size: 64px;
+    font-size: 56px;
     line-height: 100%;
     color: var(--textColor1);
     margin-bottom: 8px;
