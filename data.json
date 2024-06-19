@@ -274,7 +274,7 @@
                       "&lt;!--This is a single-line comment--&gt;",
                       "/* This is a single-line comment */"
                     ],
-                    "answer": "//This is a single-line comment"
+                    "answer": "// This is a single-line comment"
                 },
                 {
                     "question": "Який правильний спосіб написати масив JavaScript?",
