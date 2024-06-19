@@ -5,7 +5,7 @@
             "icon": "./assets/images/icon-html.svg",
             "questions": [
                 {
-                    "question": "What does HTML stand for?",
+                    "question": "Що означає HTML?",
                     "options": [
                         "Hyper Trainer Marking Language",
                         "Hyper Text Marketing Language",
@@ -15,7 +15,7 @@
                     "answer": "Hyper Text Markup Language"
                 },
                 {
-                    "question": "Which of the following is the correct structure for an HTML document?",
+                    "question": "Яка з наведених є правильною структурою HTML-документа?",
                     "options": [
                         "&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;",
                         "&lt;head&gt;&lt;html&gt;&lt;/html&gt;&lt;body&gt;&lt;/body&gt;&lt;/head&gt;",
@@ -25,7 +25,7 @@
                     "answer": "&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
                 },
                 {
-                    "question": "Which HTML element is used to define the title of a document?",
+                    "question": "Який HTML елемент використовується для визначення назви документа?",
                     "options": [
                         "&lt;head&gt;",
                         "&lt;title&gt;",
@@ -35,17 +35,17 @@
                     "answer": "&lt;title&gt;"
                 },
                 {
-                    "question": "What is the purpose of the &lt;body&gt; tag in HTML?",
+                    "question": "Яке призначення тега  &lt;body&gt; в HTML?",
                     "options": [
-                        "It defines the document's head section.",
-                        "It contains all the content such as text, images, and links.",
-                        "It is used to define the main content of an HTML document.",
-                        "It specifies the body of the email content in HTML."
+                        "Він визначає секцію заголовка документа.",
+                        "Він містить весь контент, такий як текст, зображення і посилання.",
+                        "Він використовується для визначення основного контенту HTML документа.",
+                        "Він визначає тіло вмісту електронної пошти в HTML."
                     ],
-                    "answer": "It contains all the content such as text, images, and links."
+                    "answer": "Він містить весь контент, такий як текст, зображення і посилання."
                 },
                 {
-                    "question": "Which HTML tag is used to create a hyperlink?",
+                    "question": "Який HTML тег використовується для створення гіперпосилання?",
                     "options": [
                         "&lt;hyperlink&gt;",
                         "&lt;link&gt;",
@@ -55,7 +55,7 @@
                     "answer": "&lt;a&gt;"
                 },
                 {
-                    "question": "Which tag is used to display images in HTML?",
+                    "question": "Який тег використовується для відображення зображень в HTML?",
                     "options": [
                         "&lt;img&gt;",
                         "&lt;image&gt;",
@@ -65,7 +65,7 @@
                     "answer": "&lt;img&gt;"
                 },
                 {
-                    "question": "What attribute is used to provide the path of an image in the &lt;img&gt; tag?",
+                    "question": "Який атрибут використовується для вказівки шляху до зображення в &lt;img&gt;?",
                     "options": [
                         "link",
                         "src",
@@ -75,7 +75,7 @@
                     "answer": "src"
                 },
                 {
-                    "question": "Which HTML tag is used to create an unordered list?",
+                    "question": "Який HTML тег використовується для створення невпорядкованого списку?",
                     "options": [
                         "&lt;ul&gt;",
                         "&lt;ol&gt;",
@@ -85,24 +85,24 @@
                     "answer": "&lt;ul&gt;"
                 },
                 {
-                    "question": "What does the &lt;br&gt; tag do?",
+                    "question": "Що робить тег &lt;br&gt;?",
                     "options": [
-                        "It breaks the text into two sections.",
-                        "It creates a bold text.",
-                        "It inserts a line break.",
-                        "It adds a new row in a table."
+                        "Він розбиває текст на два розділи.",
+                        "Він створює жирний текст.",
+                        "Він вставляє розрив рядка.",
+                        "Він додає новий рядок в таблицю."
                     ],
-                    "answer": "It inserts a line break."
+                    "answer": "Він вставляє розрив рядка."
                 },
                 {
-                    "question": "In HTML, what does the `fieldset` tag do?",
+                    "question": "В HTML, що робить тег fieldset?",
                     "options": [
-                        "It is used to group related data in a form.",
-                        "It sets the field to a fixed size.",
-                        "It automatically validates the fields within a form.",
-                        "It hides the fields in a form."
+                        "Він використовується для групування пов'язаних даних у формі.",
+                        "Він встановлює фіксований розмір поля.",
+                        "Він автоматично перевіряє поля у формі.",
+                        "Він приховує поля у формі."
                     ],
-                    "answer": "It is used to group related data in a form."
+                    "answer": "Він використовується для групування пов'язаних даних у формі."
                 }
             ]
         },
@@ -111,7 +111,7 @@
             "icon": "./assets/images/icon-css.svg",
             "questions": [
                 {
-                    "question": "What does CSS stand for?",
+                    "question": "Що означає CSS?",
                     "options": [
                         "Colorful Style Sheets",
                         "Computer Style Sheets",
@@ -121,7 +121,7 @@
                     "answer": "Cascading Style Sheets"
                 },
                 {
-                    "question": "Which HTML attribute is used to define inline styles?",
+                    "question": "Який HTML атрибут використовується для визначення вбудованих стилів?",
                     "options": [
                         "styles",
                         "style",
@@ -131,7 +131,7 @@
                     "answer": "style"
                 },
                 {
-                    "question": "How do you insert a comment in a CSS file?",
+                    "question": "Як вставити коментар у CSS файл?",
                     "options": [
                         "// this is a comment //",
                         "/* this is a comment */",
@@ -141,7 +141,7 @@
                     "answer": "/* this is a comment */"
                 },
                 {
-                    "question": "Which property is used to change the background color of an element?",
+                    "question": "Яка властивість використовується для зміни кольору фону елемента?",
                     "options": [
                         "color",
                         "bgcolor",
@@ -151,7 +151,7 @@
                     "answer": "background-color"
                 },
                 {
-                    "question": "How do you apply a style to all &lt;p&gt; elements?",
+                    "question": "Як застосувати стиль до всіх елементів <p>?",
                     "options": [
                         "p { }",
                         ".p { }",
@@ -161,7 +161,7 @@
                     "answer": "p { }"
                 },
                 {
-                    "question": "Which property is used to change the font of an element?",
+                    "question": "Яка властивість використовується для зміни шрифту елемента?",
                     "options": [
                         "font-style",
                         "text-style",
@@ -171,7 +171,7 @@
                     "answer": "font-family"
                 },
                 {
-                    "question": "How do you make each word in a text start with a capital letter?",
+                    "question": "Як зробити так, щоб кожне слово в тексті починалося з великої літери?",
                     "options": [
                         "text-transform: capitalize",
                         "text-transform: uppercase",
@@ -181,7 +181,7 @@
                     "answer": "text-transform: capitalize"
                 },
                 {
-                    "question": "How do you select an element with the class name 'header'?",
+                    "question": "Як вибрати елемент з класом 'header'?",
                     "options": [
                         ".header",
                         "#header",
@@ -191,7 +191,7 @@
                     "answer": ".header"
                 },
                 {
-                    "question": "What is the default value of the 'position' property?",
+                    "question": "Яке значення за замовчуванням має властивість 'position'?",
                     "options": [
                         "relative",
                         "fixed",
@@ -201,14 +201,14 @@
                     "answer": "static"
                 },
                 {
-                    "question": "What is the purpose of the z-index property in CSS?",
+                    "question": "Яке призначення властивості z-index у CSS?",
                     "options": [
-                        "To count the number of elements",
-                        "To set the magnification level of an element",
-                        "To specify the stack order of an element",
-                        "To create a zoom effect"
+                        "Для підрахунку кількості елементів",
+                        "Для встановлення рівня збільшення елемента",
+                        "Для визначення порядку пошарового розташування елемента",
+                        "Для створення ефекту збільшення"
                     ],
-                    "answer": "To specify the stack order of an element"
+                    "answer": "Для визначення порядку пошарового розташування елемента"
                 }
             ]
         },
@@ -256,7 +256,7 @@
                     ],
                     "answer": "if (i != 5)"
                 },
-                  {
+                {
                     "question": "Як зазвичай починається цикл FOR?",
                     "options": [
                         "for (i = 0; i <= 5)",
@@ -269,10 +269,10 @@
                 {
                     "question": "Як можна додати однорядковий коментар у JavaScript?",
                     "options": [
-                      "'This is a single-line comment",
-                      "// This is a single-line comment",
-                      "&lt;!--This is a single-line comment--&gt;",
-                      "/* This is a single-line comment */"
+                        "'This is a single-line comment",
+                        "// This is a single-line comment",
+                        "&lt;!--This is a single-line comment--&gt;",
+                        "/* This is a single-line comment */"
                     ],
                     "answer": "// This is a single-line comment"
                 },
@@ -323,7 +323,7 @@
             "icon": "./assets/images/icon-accessibility.svg",
             "questions": [
                 {
-                    "question": "What does 'WCAG' stand for?",
+                    "question": "Що означає 'WCAG'",
                     "options": [
                         "Web Content Accessibility Guidelines",
                         "Web Compliance Accessibility Guide",
@@ -333,7 +333,7 @@
                     "answer": "Web Content Accessibility Guidelines"
                 },
                 {
-                    "question": "Which element is used to provide alternative text for images for screen reader users?",
+                    "question": "Який елемент використовується для надання альтернативного тексту до зображень для користувачів екранних читалок?",
                     "options": [
                         "&lt;alt&gt;",
                         "&lt;figcaption&gt;",
@@ -343,7 +343,7 @@
                     "answer": "&lt;img alt='description'&gt;"
                 },
                 {
-                    "question": "What does ARIA stand for in web development?",
+                    "question": "Що означає ARIA у веб-розробці?",
                     "options": [
                         "Accessible Rich Internet Applications",
                         "Advanced Responsive Internet Assistance",
@@ -353,17 +353,17 @@
                     "answer": "Accessible Rich Internet Applications"
                 },
                 {
-                    "question": "Which of the following is not a principle of the WCAG?",
+                    "question": "Що з наступного не є принципом WCAG?",
                     "options": [
-                        "Perceivable",
-                        "Dependable",
-                        "Operable",
-                        "Understandable"
+                        "Сприйнятливий",
+                        "Надійний",
+                        "Керований",
+                        "Зрозумілий"
                     ],
-                    "answer": "Dependable"
+                    "answer": "Надійний"
                 },
                 {
-                    "question": "Which of these color contrast ratios defines the minimum WCAG 2.1 Level AA requirement for normal text?",
+                    "question": "Яке з цих співвідношень контрастності кольорів визначає мінімальну вимогу WCAG 2.1 рівня AA для звичайного тексту?",
                     "options": [
                         "3:1",
                         "4.5:1",
@@ -373,7 +373,7 @@
                     "answer": "4.5:1"
                 },
                 {
-                    "question": "Which of the following elements is inherently focusable, meaning it can receive focus without a 'tabindex' attribute?",
+                    "question": "Який з наступних елементів є за замовчуванням фокусованим, тобто може отримувати фокус без атрибута 'tabindex'?",
                     "options": [
                         "&lt;div&gt;",
                         "&lt;span&gt;",
@@ -383,17 +383,17 @@
                     "answer": "&lt;a href='...'&gt;"
                 },
                 {
-                    "question": "What is the purpose of the 'lang' attribute in an HTML page?",
+                    "question": "Яке призначення атрибута 'lang' на HTML-сторінці?",
                     "options": [
-                        "To specify the scripting language",
-                        "To define the character set",
-                        "To indicate the language of the page content",
-                        "To declare a language pack"
+                        "Для вказівки мови скрипту",
+                        "Для визначення набору символів",
+                        "Для вказівки мови вмісту сторінки",
+                        "Для оголошення мовного пакета"
                     ],
-                    "answer": "To indicate the language of the page content"
+                    "answer": "Для вказівки мови вмісту сторінки"
                 },
                 {
-                    "question": "Which guideline ensures that content is accessible by keyboard as well as by mouse?",
+                    "question": "Яка рекомендація забезпечує доступність вмісту за допомогою клавіатури, а також миші?",
                     "options": [
                         "Keyboard Accessible",
                         "Mouse Independence",
@@ -403,17 +403,17 @@
                     "answer": "Keyboard Accessible"
                 },
                 {
-                    "question": "What is the role of 'skip navigation' links in web accessibility?",
+                    "question": "Яка роль посилань 'skip navigation' у веб-доступності?",
                     "options": [
-                        "To skip over primary navigation to the main content",
-                        "To provide shortcuts to different sections of the website",
-                        "To help users skip unwanted sections like advertisements",
-                        "To bypass broken links in the navigation"
+                        "Щоб пропустити основну навігацію і перейти до основного вмісту",
+                        "Щоб надати ярлики до різних розділів сайту",
+                        "Щоб допомогти користувачам пропустити небажані розділи, такі як реклама",
+                        "Щоб обійти непрацюючі посилання в навігації"
                     ],
-                    "answer": "To skip over primary navigation to the main content"
+                    "answer": "Щоб пропустити основну навігацію і перейти до основного вмісту"
                 },
                 {
-                    "question": "Which of these tools can help in checking the accessibility of a website?",
+                    "question": "Які з цих інструментів можуть допомогти в перевірці доступності вебсайту?",
                     "options": [
                         "W3C Validator",
                         "Google Lighthouse",
