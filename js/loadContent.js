@@ -79,6 +79,7 @@ export function insertResultPageContent(
       </div>
   </div>
   <button class="play__again btn__base-action">Спробуй ще!</button>
+  
   `;
   resultContainer.appendChild(quizResult);
 }
