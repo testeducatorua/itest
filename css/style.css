@@ -72,7 +72,9 @@ body {
   font-size: 10px;
   font-weight: 300;
 }
-
+.spilnota{
+  font-weight: 500;
+}
 .container {
   width: 1160px;
   margin: 0 auto;
