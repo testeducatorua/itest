@@ -229,7 +229,7 @@ div.donate {
   font-weight: 500;
   line-height: 100%;
   position: relative;
-  border: none;
+  border: 3px solid transparent;
   cursor: pointer;
   display: flex;
   align-items: center;
